@@ -51,11 +51,11 @@ body {
 .header_left {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 60%;
 }
 
 .header_title {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .header_title h3 {
@@ -93,6 +93,7 @@ body {
     top: 5px;
     left: 13px;
     color: #00EF6B;
+    cursor: pointer;
 }
 
 .header_search .mic {
@@ -101,19 +102,52 @@ body {
     top: 5px;
     right: 13px;
     color: #00EF6B;
+    cursor: pointer;
+}
+
+.day_night {
+    position: relative;
+    height: 37px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.day_night p {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 1px;
+}
+
+.dark_mode {
+    width: 46px;
+    height: 26px;
+    padding: 0px 3px 0px 1.5px;
+    background-color: #649CD8;
+    border-radius: 13px;
+}
+
+.dark_mode .moon {
+    position: relative;
+    bottom: 4px;
+    font-size: 22px;
+    color: #ECC75D;
 }
 
 .header_right {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .header_right .text {
-    font-size: 20px;
+    font-size: 23px;
     color: #39CEF3;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 .header_noti {
@@ -122,14 +156,15 @@ body {
 }
 
 .header_noti .bell {
-    font-size: 20px;
+    font-size: 23px;
     color: #00EF6B;
+    cursor: pointer;
 }
 
 .header_noti .noti {
     position: absolute;
-    top: 4.5px;
-    right: 1.4px;
+    top: 5.2px;
+    right: 2.7px;
     display: block;
     width: 6.5px;
     height: 7px;
@@ -138,9 +173,11 @@ body {
 }
 
 .header_right .header_country {
+    width: 140px;
     display: flex;
     align-items: center;
     margin-right: 3px;
+    cursor: pointer;
 }
 
 .country_image {
@@ -156,10 +193,10 @@ body {
 }
 
 .header_country p {
-    position: relative;
-    top: 7.5px;
     font-size: 13px;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
     margin-right: 3px;
 }
 
@@ -167,14 +204,20 @@ body {
     font-size: 11px;
 }
 
+.header_profile {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
 .header_profile .profile {
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 5px;
     color: #a3a3a3;
 }
 
 .header_profile .down {
-
+    font-size: 15px;
 }
 
 
@@ -225,6 +268,7 @@ body {
     color: #212529;
     font-size: 16px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .sc_nav ul li a i {
@@ -302,6 +346,8 @@ body {
 .home_info_top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
 }
 
 .home_info_top .top_text {
@@ -322,12 +368,26 @@ body {
     margin-top: 3px;
 }
 
-.home_info_top .top_date {
-
+.top_date {
+    display: flex;
+    align-items: center;
 }
 
-.home_info_top .top_date input {
+.top_date .bi {
+    color: #4280EA;
+    margin-right: 7px;
+}
 
+.top_date p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top_date input {
+    border: none;
+    outline: none;
 }
 
 .home_info_chart {
