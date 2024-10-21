@@ -17,12 +17,12 @@ export class TargetComponent implements OnInit {
       const textColor = 'red';
 
       this.data = {
-          labels: ['A', 'B', 'C'],
+          labels: ['Target', 'Achieved'],
           datasets: [
               {
-                  data: [300, 50, 100],
-                  backgroundColor: [],
-                  hoverBackgroundColor: []
+                  data: [50, 300],
+                  backgroundColor: ['#C4F1E2', '#2BE09D'],
+                  hoverBackgroundColor: ['#667390']
               }
           ]
       };

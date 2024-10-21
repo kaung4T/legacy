@@ -27,7 +27,7 @@ export class ProductComponent implements OnInit {
                 {
                     data: [300, 50, 100, 40, 113],
                     backgroundColor: ['#FC4827', '#4721FC', '#FCA825', '#46CDF0', '#2CDD7D'],
-                    hoverBackgroundColor: [] 
+                    hoverBackgroundColor: ['#E2E2E2'] 
                 }
             ]
         };
